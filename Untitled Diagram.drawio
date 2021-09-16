@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T01:42:01.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44" etag="188BmD6MXJMD_vOwXnBT" version="15.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T00:40:56.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44" etag="IqQtjuqcz54GWEtWzq4f" version="15.2.5" type="github">
   <diagram id="oej7wzWPO1qheC2RB6Ke" name="Page-1">
-    <mxGraphModel dx="1993" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2014" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,11 +69,23 @@
         <mxCell id="tbrqV4_gTODMPYOUEHjS-21" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="540" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="tbrqV4_gTODMPYOUEHjS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbrqV4_gTODMPYOUEHjS-22" target="tbrqV4_gTODMPYOUEHjS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tbrqV4_gTODMPYOUEHjS-22" value="初始化缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tbrqV4_gTODMPYOUEHjS-24" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tbrqV4_gTODMPYOUEHjS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbrqV4_gTODMPYOUEHjS-25" target="tbrqV4_gTODMPYOUEHjS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbrqV4_gTODMPYOUEHjS-25" value="遍历inputs循环处理input" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbrqV4_gTODMPYOUEHjS-27" value="osgb2b3dm&lt;br&gt;一对一转换&lt;br&gt;根据config设置和&lt;br&gt;tile数量判断多线程处理还是单线程处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
